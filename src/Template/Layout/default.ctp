@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand icon-brand fa fa-facebook-square" href="#"></a>
+          <a class="navbar-brand icon-brand fa fa-facebook-square" href=""></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -78,9 +78,9 @@
                       <img  src="/img/male.png"
                           data-position="98,0" data-in="right" data-step="1" data-delay="" data-out="fade">
                       <img    src="/img/female.png" 
-                          data-position="90,200" data-step="2" data-in="left" data-delay="" data-out="fade">
+                          data-position="90,200" data-step="1" data-in="left" data-delay="1000" data-out="fade">
                       <img    src="/img/earth.png" 
-                          data-position="0, 450" data-step="3" data-in="fade" data-delay="" data-out="fade">
+                          data-position="0, 450" data-step="2" data-in="fade" data-delay="" data-out="fade">
                     </div>
                     <div class="slide">
                       <img  src="/img/keymouse2.png"   
@@ -90,15 +90,15 @@
                       <img  src="/img/monitor2.png"     
                           data-position="100,0" data-in="top" data-step="3" data-out="fade">
                       <img  src="/img/brainhand.png"     
-                          data-position="100,650" data-in="fade" data-step="4" data-out="fade" >
+                          data-position="100,650" data-in="fade" data-step="3" data-delay="1000" data-out="fade" >
                       <img  src="/img/test3.jpg"     
-                          data-position="112,8" data-in="fade" data-step="5" data-out="fade" data-special="cycle" >
+                          data-position="112,8" data-in="fade" data-step="4" data-out="fade" data-special="cycle" >
                       <img  src="/img/connect.png"     
-                          data-position="100,500" data-in="fade" data-step="6" data-out="fade"   >
+                          data-position="100,500" data-in="fade" data-step="4" data-out="fade"   >
                       <img  src="/img/test4.jpg"     
-                          data-position="112,8" data-in="fade" data-step="7" data-out="fade" data-special="cycle" >
+                          data-position="112,8" data-in="fade" data-step="5" data-out="fade" data-special="cycle" >
                       <img  src="/img/earth2.png"     
-                          data-position="50,700" data-in="fade" data-step="8" data-out="fade"  >    
+                          data-position="50,700" data-in="fade" data-step="5" data-out="fade"  >    
                     </div>
                   </div>
                 </div>
