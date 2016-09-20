@@ -35,7 +35,7 @@
     ?>
 </head>
 <body class="home">
-     <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -79,7 +79,12 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
+    <nav class="social-link">
+      <a href="https://www.facebook.com/focus.nguyen"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+      <a href="https://twitter.com/FocusNguyen"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+      <a href="https://plus.google.com/u/0/113048850438278550293"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+      <a href="mailto:info@focusnguyen.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+    </nav>
     <div class="container">
         
         <div class="col-sm-12">
@@ -129,6 +134,13 @@
       
       <!--#timeline-->
     </div><!--#container-->
+    
+      <footer class="footer" style="display:table;">
+        <div class="container" style="display: table-cell; vertical-align: middle;">
+          @2016 by Focus Nguyen developer.
+        </div>
+      </footer>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js">
