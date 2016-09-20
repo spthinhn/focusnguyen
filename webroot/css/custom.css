@@ -50,3 +50,11 @@
         width:1440px;
     }
 }
+
+#hosting .list-group-item:last-child {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#hosting .list-group, #website .list-group {
+    margin-bottom: 0px;
+}
