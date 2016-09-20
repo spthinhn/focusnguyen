@@ -129,9 +129,9 @@
       
       <!--#timeline-->
     </div><!--#container-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
     </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js">
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js">
     </script>
     <?= $this->Html->script('bootstrap.min.js') ?>
     <?= $this->Html->script('jquery.fractionslider.min.js') ?>
