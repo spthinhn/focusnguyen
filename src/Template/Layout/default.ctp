@@ -3,6 +3,20 @@
 <head>
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="focus nguyen, thiet ke website, hosting gia re, seo website gia re
+    ">
+    <meta name="description" content="Focus Nguyễn. Thiết kế website chuyên nghiệp. Cung cấp hosting giá rẻ, hosting chất lượng. Seo website chuyên nghiệp và uy tín.">
+    <meta property="og:title" content="Focus Nguyễn developer"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://focusnguyen.com"/>
+    <meta property="og:image" content="https://focusnguyen.com/img/avatar.jpg"/>
+    <meta property="og:description" content="Focus Nguyễn. Thiết kế website chuyên nghiệp. Cung cấp hosting giá rẻ, hosting chất lượng. Seo website chuyên nghiệp và uy tín." />
+    <meta name="twitter:card" content="Focus Nguyen" />
+    <meta name="twitter:site" content="https://focusnguyen.com" />
+    <meta name="twitter:title" content="Focus Nguyễn developer" />
+    <meta name="twitter:description" content="Focus Nguyễn. Thiết kế website chuyên nghiệp. Cung cấp hosting giá rẻ, hosting chất lượng. Seo website chuyên nghiệp và uy tín."/>
+    <meta name="twitter:image" content="https://focusnguyen.com/img/avatar.jpg"/>
+    <link rel="canonical" href="https://focusnguyen.com">
     <title>
         Focus Nguyen
     </title>
