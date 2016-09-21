@@ -26,7 +26,6 @@
     <?= $this->Html->css('style.css') ?>
     <?= $this->Html->css('custom.css') ?>
     <?= $this->Html->css('fractionslider.css') ?>
-    <?= $this->Html->css('styleWow.css') ?>
     <?php 
         if (!empty($csss)) {
             foreach ($csss as $key => $value) {
@@ -87,26 +86,42 @@
       <a href="mailto:info@focusnguyen.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
     </nav>
     <div class="container">
-        <div class="col-sm-8">
-          <div class="tvbackground">
-            <img src="/img/tv2.png" alt="tv2" width="100%">
-            <div class="sceen">
-              <div id="wowslider-container1">
-                <div class="ws_images">
-                  <ul>
-                    <li><img src="/img/a1.jpg" alt="a1" title="a1" id="wows1_0"/></li>
-                    <li><img src="/img/a2.jpg" alt="a2" title="a2" id="wows1_1"/></li>
-                    <li><img src="/img/a3.jpg" alt="a3" title="a3" id="wows1_2"/></li>
-                    <li><img src="/img/a4.jpg" alt="a4" title="a4" id="wows1_3"/></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         <div class="col-sm-12">
             <div class="thumbnail thumbnail-grand-profile">
-              
+              <div class="slider-wrapper">
+                <div class="responisve-container">
+                  <div class="slider">
+                    <div class="fs_loader"></div>
+                    <div class="slide" >
+                      <img  src="/img/male.png"
+                          data-position="98,0" data-in="right" data-step="1" data-delay="" data-out="fade">
+                      <img    src="/img/female.png" 
+                          data-position="90,200" data-step="1" data-in="left" data-delay="1000" data-out="fade">
+                      <img    src="/img/earth.png" 
+                          data-position="0, 450" data-step="2" data-in="fade" data-delay="" data-out="fade">
+                    </div>
+                    <div class="slide">
+                      <img  src="/img/keymouse2.png"   
+                          data-position="300,0" data-in="bottom" data-step="1"  data-out="fade">
+                      <img    src="/img/cpu2.png" 
+                          data-position="100,280" data-in="top" data-step="2"  data-out="fade">
+                      <img  src="/img/monitor2.png"     
+                          data-position="100,0" data-in="top" data-step="3" data-out="fade">
+                      <img  src="/img/brainhand.png"     
+                          data-position="100,650" data-in="fade" data-step="3" data-delay="1000" data-out="fade" >
+                      <img  src="/img/test3.jpg"     
+                          data-position="112,8" data-in="fade" data-step="4" data-out="fade" data-special="cycle" >
+                      <img  src="/img/connect.png"     
+                          data-position="100,500" data-in="fade" data-step="4" data-out="fade"   >
+                      <img  src="/img/test4.jpg"     
+                          data-position="112,8" data-in="fade" data-step="5" data-out="fade" data-special="cycle" >
+                      <img  src="/img/earth2.png"     
+                          data-position="50,700" data-in="fade" data-step="5" data-out="fade"  >    
+                    </div>
+                  </div>
+                </div>
+              </div>
               <ul class="nav nav-pills nav-grand-profile">
                   <li role="presentation"><?php echo $this->Html->link('Seo',['controller' => 'Seo', 'action' => 'index', '_full' => true]); ?></li>
               </ul>
@@ -127,12 +142,9 @@
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js">
     </script>
-
     <?= $this->Html->script('bootstrap.min.js') ?>
     <?= $this->Html->script('jquery.fractionslider.min.js') ?>
     <?= $this->Html->script('customall.js') ?>
-    <?= $this->Html->script('wowslider.js') ?>
-    <?= $this->Html->script('script.js') ?>
     <?php 
         if (!empty($jsss)) {
             foreach ($jsss as $key => $value) {

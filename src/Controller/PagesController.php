@@ -37,8 +37,11 @@ class PagesController extends AppController
      */
     public function index()
     {
-        $popular = 'test';
         $this->viewBuilder()->layout('default');
-        
+    }
+
+    public function gioithieu()
+    {
+        $this->viewBuilder()->layout('default');
     }
 }

@@ -20,6 +20,9 @@
 							    <a class="list-group-item">
 							        <span class="glyphicon glyphicon-ok"></span> Quản trị đơn giản
 							    </a>
+						    	<a href="/thiet-ke-website/mau/website-gioi-thieu" class="list-group-item text-right">
+							        <span class="glyphicon glyphicon-glyphicon glyphicon-hand-right"></span> Xem mẫu! <span class="glyphicon glyphicon-glyphicon glyphicon-hand-left"></span> 
+						        </a>
 							</div>
 						</div>
 					</div>
@@ -45,6 +48,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-sm-6">
 					<div class="panel panel-info">
 						<div class="panel-heading text-center">THIẾT KẾ WEBSITE RAO VẶT, QUẢNG CÁO</div>
